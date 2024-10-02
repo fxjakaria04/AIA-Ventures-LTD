@@ -3,10 +3,224 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="public/tailwind.css">k
+    <title>AIA Ventures LTD</title>
+    <link rel="stylesheet" href="public/tailwind.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    
+    <nav class="bg-gradient-to-b from-[#BABABA] to-[#E5E8C1] shadow-lg">
+        <div class="w-10/12 m-auto lg:flex lg:items-center lg:justify-between">
+            <div class="flex items-center justify-between lg:w-1/3">
+                <img src="src/img/AiA-full-logo 1.png" alt="AiA-full-logo" class="scale-75">
+                <div class="lg:hidden block">
+                    <i  class="hidden fa-solid fa-bars text-3xl" onclick="mobMenu(this)"></i>
+                </div>
+            </div>
+            <div class="lg:flex lg:items-center lg:justify-between w-2/3">
+                <ul class="lg:flex items-center lg:justify-between gap-6 lg:static absolute w-full lg:bg-transparent lg:text-black bg-black text-white left-0 lg:w-auto py-4 lg:py-0 pl-7 lg:pl-0 top-[-400] transition-all ease-in duration-100 lg:opacity-100 opacity-0 bg-opacity-100">
+                    <li class="hover:text-gray-400 duration-300 px-2 my-6 lg:my-0">
+                        <a href="#">Partner With Us</a>
+                    </li>
+                    <li class="hover:text-gray-400 duration-300 px-2 my-6 lg:my-0">
+                        <a href="#">Service</a>
+                    </li>
+                    <li class="hover:text-gray-400 duration-300 px-2 my-6 lg:my-0">
+                        <a href="#">Blog</a>
+                    </li>
+                    <li class="hover:text-gray-400 duration-300 px-2 my-6 lg:my-0">
+                        <a href="#">Help</a>
+                    </li>
+                    <li class="hover:text-gray-400 duration-300 px-2 my-6 lg:my-0">
+                        <a href="#">More</a>
+                    </li>
+                    <div class="lg:hidden flex items-center gap-4">
+                        <div>
+                            <i class="fa-solid fa-globe"></i>
+                            <select name="" id="" class="bg-transparent">
+                                <option value="">Bangla</option>
+                                <option value="">English</option>
+                            </select>
+                            
+                        </div>
+                        <a href="#">login</a>
+                    </div>
+                </ul>
+                <div id="last-part-of-nav" class="hidden lg:flex items-center gap-3">
+                    <div>
+                        <i class="fa-solid fa-globe"></i>
+                        <select name="" id="" class="bg-transparent">
+                            <option value="">Bangla</option>
+                            <option value="">English</option>
+                        </select>
+                        
+                    </div>
+                    <a href="#">login</a>
+                    
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- About us section -->
+    <section>
+        <div class="w-10/12 m-auto">
+            <div class="w-full parent text-background lg:text-[240px] md:text-[100px] text-8xl font-bold">
+                <div class="w-full text-2xl text-center">
+                    <h1 class="spaceing">OUR STORY</h1>
+                </div>
+            </div>
+            <div class="w-10/12 m-auto ">
+                <p class="text-[#333333] font-bold text-3xl mt-2">Our Mission</p>
+                <div class="flex items-center justify-between mt-3">
+                    <div class="w-5/12 ">
+                        <div class=" flex items-start pt-0 justify-between gap-3 mb-4">
+                            <i class="fa-solid fa-circle-check text-[#3CA69D] text-2xl mt-1"></i>
+                            <p class="text-[#333333] text-lg">Obstacles are those frightful things you
+                                see when you take your eyes off the goal.</p>
+                        </div>
+                        <div class=" flex items-start pt-0 justify-between gap-3 mb-4">
+                            <i class="fa-solid fa-circle-check text-[#3CA69D] text-2xl mt-1"></i>
+                            <p class="text-[#333333] text-lg">Obstacles are those frightful things you
+                                see when you take your eyes off the goal.</p>
+                        </div>
+                        <div class=" flex items-start pt-0 justify-between gap-3 mb-4">
+                            <i class="fa-solid fa-circle-check text-[#3CA69D] text-2xl mt-1"></i>
+                            <p class="text-[#333333] text-lg">Obstacles are those frightful things you
+                                see when you take your eyes off the goal.</p>
+                        </div>
+                    </div>
+                    <div class="w-6/12 h-full justify-self-end flex flex-col">
+                            <h1 class="text-4xl text-primary font-bold mb-[42px]">We are the team of <br>
+                                passionate people who <br>
+                                can make things easy</h1>
+                        <div class="flex items-center justify-between">
+                            <div>
+                                <p class="text-[#00A6A0] font-extrabold text-4xl">1200+</p>
+                                <p class="text-primary text-lg">Active User</p>
+                            </div>
+                            <div>
+                                <p class="text-[#00A6A0] font-extrabold text-4xl">300+</p>
+                                <p class="text-primary text-lg">Positive Partner</p>
+                            </div>
+                            <div>
+                                <p class="text-[#00A6A0] font-extrabold text-4xl">95%</p>
+                                <p class="text-primary text-lg">Customer satisfaction</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full text-center my-9">
+                    <a href="#" class="border border-[#333333] rounded-sm px-3 py-2 text-center">Discover our services</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Experties section -->
+    <section>
+        <div class="pt-16 w-10/12 m-auto" style="background: url(src/img/BG\ 02.png);  background-size: cover;">
+            <div class="text-background2 w-full lg:text-[240px] md:text-[100px] text-8xl font-bold">
+                <h1 class="spaceing text-center text-xl text-white">OUR TEAM</h1>
+            </div>
+            <div class="card-section flex items-center justify-around mt-16 gap-2 m-2 pb-4">
+                
+                <div class="bg-white w-1/5 mt-40 rounded-tl-lg rounded-tr-lg">
+                    <div class="flex items-center justify-center">
+                        <img class="" src="src/img/person-2.png" alt="">
+                    </div>
+                    <div class="border-t border-black px-1">
+                        <div class="w-full flex my-2">
+                            <div class="w-10/12">
+                                <p class="text-primary font-semibold text-lg">Lamia Sultana Silvy</p>
+                            </div>
+                            <div class="w-2/12">
+                                <i class="fa-brands fa-facebook"></i>
+                                <i class="fa-brands fa-x-twitter"></i>
+                            </div>
+                        </div>
+                        <div class="my-2">
+                            <p class="text-primary text-sm">Graphic Designer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white w-1/5 mt-40 rounded-tl-lg rounded-tr-lg">
+                    <div class="flex items-center justify-center">
+                        <img class="" src="src/img/person-2.png" alt="">
+                    </div>
+                    <div class="border-t border-black px-1">
+                        <div class="w-full flex my-2">
+                            <div class="w-10/12">
+                                <p class="text-primary font-semibold text-lg">Lamia Sultana Silvy</p>
+                            </div>
+                            <div class="w-2/12">
+                                <i class="fa-brands fa-facebook"></i>
+                                <i class="fa-brands fa-x-twitter"></i>
+                            </div>
+                        </div>
+                        <div class="my-2">
+                            <p class="text-primary text-sm">Graphic Designer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white w-1/5 mt-40 rounded-tl-lg rounded-tr-lg">
+                    <div class="flex items-center justify-center">
+                        <img class="" src="src/img/person-2.png" alt="">
+                    </div>
+                    <div class="border-t border-black px-1">
+                        <div class="w-full flex my-2">
+                            <div class="w-10/12">
+                                <p class="text-primary font-semibold text-lg">Lamia Sultana Silvy</p>
+                            </div>
+                            <div class="w-2/12">
+                                <i class="fa-brands fa-facebook"></i>
+                                <i class="fa-brands fa-x-twitter"></i>
+                            </div>
+                        </div>
+                        <div class="my-2">
+                            <p class="text-primary text-sm">Graphic Designer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white w-1/5 mt-40 rounded-tl-lg rounded-tr-lg">
+                    <div class="flex items-center justify-center">
+                        <img class="" src="src/img/person-2.png" alt="">
+                    </div>
+                    <div class="border-t border-black px-1">
+                        <div class="w-full flex my-2">
+                            <div class="w-10/12">
+                                <p class="text-primary font-semibold text-lg">Lamia Sultana Silvy</p>
+                            </div>
+                            <div class="w-2/12">
+                                <i class="fa-brands fa-facebook"></i>
+                                <i class="fa-brands fa-x-twitter"></i>
+                            </div>
+                        </div>
+                        <div class="my-2">
+                            <p class="text-primary text-sm">Graphic Designer</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const unlist = document.querySelector("ul");
+        const LPON = document.getElementById("last-part-of-nav");
+        function mobMenu (e){
+            
+            if(e.classList.contains("fa-bars")){
+                unlist.classList.remove("opacity-0")
+                unlist.classList.remove("top-[-400]")
+                e.classList.remove("fa-bars")
+                e.classList.add("fa-xmark")
+                // LPON.classList.remove("hidden")
+            }else if (e.classList.contains("fa-xmark")){
+                unlist.classList.add("opacity-0")
+                unlist.classList.add("top-[-400]")
+                e.classList.add("fa-bars")
+                e.classList.remove("fa-xmark")
+            }
+        }
+    </script>
 </body>
 </html>

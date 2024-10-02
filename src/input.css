@@ -1,3 +1,47 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.text-background {
+    position: relative;
+}
+
+.text-background::before {
+    content: "ABOUT US";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(0, 0, 0, 0.1);
+    pointer-events: none;
+    white-space: nowrap;    
+}
+
+.text-background2 {
+    position: relative;
+    top: 50px;
+}
+
+.text-background2::before {
+    content: "EXPERTIES";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(80, 77, 74, 50%);
+    pointer-events: none;
+    white-space: nowrap;    
+}
+
+.parent {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.spaceing {
+    letter-spacing: 0.5rem;
+}
+.text-primary {
+    color: #333333;
+}
