@@ -48,3 +48,7 @@
 .bg-primary {
     background-color:#3CA69D ;
 }
+.transparent-text {
+    color: transparent;
+    -webkit-text-stroke: 2px black;
+  }
