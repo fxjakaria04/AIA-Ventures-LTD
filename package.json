@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "npx tailwindcss -i ./src/input.css -o ./public/tailwind.css -w"
+    "jakaria": "npx tailwindcss -i ./src/input.css -o ./public/tailwind.css -w"
   },
   "keywords": [],
   "author": "",
